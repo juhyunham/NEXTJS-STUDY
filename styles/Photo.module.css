@@ -1,0 +1,22 @@
+.photos {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.photos li {
+    display: flex;
+    flex-direction: column;
+}
+
+.photos li span {
+	display: block;
+}
+
+.img_wrap {
+	padding: 30px;
+}
+
+.goback {
+    display: block;
+}

@@ -17,8 +17,8 @@ const Photos = ({photos}) => (
                             <a>
                                 <Image 
                                     src={photo.thumbnailUrl}
-                                    width={100}
-                                    height={100}
+                                    width={150}
+                                    height={150}
                                     alt={photo.title}
                                 />
                                 <span>{photo.title}</span>

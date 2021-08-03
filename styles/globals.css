@@ -17,8 +17,9 @@ a {
 
 ul {
   list-style: none;
+  padding: 0 10px;
 }
 
 h1 {
-  padding-left: 40px;
+  padding-left: 10px;
 }

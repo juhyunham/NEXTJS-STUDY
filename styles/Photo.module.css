@@ -13,10 +13,21 @@
 	display: block;
 }
 
+.photos li a > div {
+	min-width: 100% !important;
+}
+
 .img_wrap {
 	padding: 30px;
 }
 
 .goback {
     display: block;
+}
+
+
+@media (max-width: 600px) {
+	.photos {
+		grid-template-columns: repeat(3, 1fr);
+	}
 }
